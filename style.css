@@ -2,15 +2,34 @@
     margin: 0;
     padding: 0;
 }
+html,body {
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+}
+
 body {
-    background-color: #272643;
+    background-color: #e3f6f5;
 }
 #main {
     width: 100%;
-    text-align: center;
-    background-color: #272643;
+    height: 700px;
+    /* text-align: center;
+    background-color:#e3f6f5; */
+}
+video{
+    width: 100%;
+    opacity: 0.8;
 }
 
+#videoBG {
+    width: 100%;
+    z-index: -1;
+}
+
+#image {
+    border-radius: 50%;
+}
 .timeline {
     width: 100%;
     background:#fff;
@@ -85,4 +104,5 @@ li:before {
 footer {
     height:100px;
     text-align: center;
+    
 }
